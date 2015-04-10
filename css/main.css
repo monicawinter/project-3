@@ -5,3 +5,12 @@ html{
 *, *::before, *::after{
   box-sizing: inherit;
 }
+
+h3 {
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 0.5em 0.75em;
+  text-align: center;
+  font-size: 2rem;
+  margin: 0 auto;
+}
