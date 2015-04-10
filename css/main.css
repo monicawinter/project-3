@@ -1,9 +1,14 @@
 html{
   box-sizing: border-box;
+  font-family: 'Viga', sans-serif;
 }
 
 *, *::before, *::after{
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
 }
 
 h3 {
@@ -11,6 +16,24 @@ h3 {
   text-decoration: none;
   padding: 0.5em 0.75em;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin: 0 auto;
+  background-color: #582c1c;
+  color: #fff;
+  width: 300px;
+}
+
+footer{
+  background-color: #582c1c;
+  color: #fff;
+  clear: left;
+  text-align: center;
+  padding: 1em;
+  font-size: 17px;
+  margin: 0;
+}
+
+footer a{
+  text-decoration: none;
+  color: #fff;
 }
