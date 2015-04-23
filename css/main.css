@@ -1,6 +1,6 @@
 html{
   box-sizing: border-box;
-  font-family: 'Viga', sans-serif;
+  margin: 0;
 }
 
 *, *::before, *::after{
@@ -13,15 +13,33 @@ body {
 
 h2 {
   text-align: center;
+  font-family: 'Viga', sans-serif;
+  background-color: #582C1E;
+  padding: 1em;
+  text-align: center;
+  float: left;
+  width: 100%;
+  color: #fff;
+  margin: 0;
 }
 
 nav {
   width: 100%;
+  font-family: 'Viga', sans-serif;
+  background-color:#77BFD8;
+  color: #000;
+  clear: left;
+  float: left;
+  width: 100%;
+  text-decoration: none;
 }
 
 nav ol{
   margin: 0em;
   padding: 0em;
+  overflow: hidden;
+  width: 100%;
+  list-style: none;
 }
 
 nav li{
@@ -30,6 +48,7 @@ nav li{
   width: 25%;
   display: block;
   margin: 0;
+  font-size: 17px;
 }
 
 nav a{
@@ -37,6 +56,11 @@ nav a{
   margin: 0;
   text-decoration: none;
   text-align: center;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 0.5em 0.5em 0.5em 0.5em;
+  color: #000;
 }
 
 h1 {
